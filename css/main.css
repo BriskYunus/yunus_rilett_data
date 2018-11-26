@@ -1,0 +1,70 @@
+@charset "utf-8";
+/*CSS document*/
+
+body
+{
+    background-color: #000000;
+}
+
+h2, h1
+{
+    color: white;
+}
+
+p
+{
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.hidden
+{
+	display: none;
+}
+
+#mainHeader
+{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#mainTitle
+{
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.mainContent
+{
+    align-content: center;
+    text-align: center;
+}
+
+#before
+{
+    align-content: center;
+    text-align: center;
+}
+
+h2
+{
+    font-size: 30px;
+}
+
+.column
+{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.medals
+{
+  content: "";
+  clear: both;
+  display: table;
+}
